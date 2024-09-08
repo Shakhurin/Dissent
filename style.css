@@ -1,0 +1,375 @@
+:root {
+  --h1: #42446e;
+  --darkContent: #666666;
+}
+
+body {
+  width: 1200px;
+  margin: auto;
+}
+
+header {
+  display: flex;
+  width: 100%;
+  margin: 41px 0;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: block;
+  height: 59px;
+}
+
+.header-navigation {
+  display: flex;
+  gap: 51px;
+}
+
+.header-bars {
+  display: none;
+  width: 36px;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.socials img {
+  width: 30px;
+  height: 30px;
+}
+
+/* Окончание стилей шапки */
+
+.greetings {
+  margin: 220px 0 348px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.greetings h1 {
+  font-weight: 700;
+  font-size: 58px;
+  line-height: 70px;
+  color: var(--h1);
+}
+
+.pavanMG {
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: linear-gradient(
+    90deg,
+    rgba(19, 176, 245, 1) 49%,
+    rgba(202, 36, 180, 1) 100%
+  );
+}
+
+.greetings-image {
+  width: 349px;
+}
+
+/* Гритингс стили закончились */
+
+.stack {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stack h2 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 26px;
+  color: var(--h1);
+  margin-bottom: 49px;
+}
+
+.stack p {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 26px;
+  color: var(--darkContent);
+  margin-bottom: 140px;
+}
+
+.techs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.techs-el {
+  margin: 65px 32px;
+  height: 120px;
+  width: 120px;
+}
+
+/* --- Стак закончились стили --- */
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 138px;
+}
+
+.projects h2 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 26px;
+  color: var(--h1);
+  margin-top: 200px;
+  margin-bottom: 49px;
+}
+
+.project-article {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 26px;
+  color: var(--darkContent);
+  margin-bottom: 96px;
+}
+
+.projects-block {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.projects-el {
+  width: 373px;
+  height: 567px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 41px -11px rgba(0, 0, 0, 0.75);
+  margin-bottom: 62px;
+}
+
+.projEl-inf {
+  margin: 27px 31px 24px 30px;
+}
+
+.projEl-inf h3 {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 26px;
+  margin-bottom: 17px;
+}
+
+.projInf-discr {
+  color: var(--darkContent);
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+  margin-bottom: 12px;
+}
+
+.projInf-stack {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  margin-bottom: 21px;
+}
+
+.projEl-actions {
+  display: flex;
+  margin: 0 30px 31px;
+  gap: 48px;
+}
+
+.actions-preview {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.actions-preview img {
+  height: 20px;
+  width: 20px;
+}
+
+.actions-preview p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  text-decoration: underline;
+}
+
+.actions-view {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.actions-view img {
+  height: 20px;
+  width: 20px;
+}
+
+.actions-view p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  text-decoration: underline;
+}
+
+/* --- Проекты стили закончены --- */
+
+.upperFooter {
+  display: flex;
+  justify-content: space-between;
+}
+
+.upperFooter-info {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+}
+
+.info-cont {
+  display: flex;
+  gap: 33px;
+}
+
+.line {
+  width: 100%;
+  margin: 42px 0 53px;
+  border: 1px solid var(--darkContent);
+}
+
+/* --- АпперФутер стили кончились --- */
+
+.downFooter {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+.downFooter-PB__gradient1 {
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: linear-gradient(
+    90deg,
+    rgba(114, 103, 211, 1) 49%,
+    rgba(153, 73, 197, 1) 100%
+  );
+}
+
+.downFooter-PB__gradient2 {
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: linear-gradient(
+    90deg,
+    rgba(176, 56, 189, 1) 49%,
+    rgba(192, 43, 183, 1) 100%
+  );
+}
+
+.downFooter-PB__gradient3 {
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: linear-gradient(
+    90deg,
+    rgba(204, 35, 179, 1) 49%,
+    rgba(229, 15, 170, 1) 100%
+  );
+}
+
+/* Конец стилям */
+
+@media (max-width: 1440px) {
+  body {
+    width: 80%;
+  }
+  .techs-el {
+    margin: 65px 25px;
+  }
+  .projects-block {
+    justify-content: space-around;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .greetings {
+    margin: 180px 0 280px;
+  }
+  .downFooter-nav {
+    display: none;
+  }
+  .downFooter {
+    justify-content: center;
+  }
+  .greetings h1 {
+    font-size: 46px;
+  }
+  .greetings-image {
+    width: 300px;
+  }
+  .stack h2 {
+    font-size: 40px;
+  }
+  .stack p {
+    font-size: 28px;
+  }
+  .techs-el {
+    width: 110px;
+    height: 110px;
+    margin: 60px 50px;
+  }
+}
+@media (max-width: 1024px) {
+  .greetings {
+    margin: 100px 0 200px;
+  }
+  .socials {
+    display: none;
+  }
+  .greetings h1 {
+    font-size: 38px;
+  }
+  .greetings-image {
+    width: 260px;
+  }
+  .stack h2 {
+    font-size: 32px;
+  }
+  .stack p {
+    font-size: 22px;
+  }
+  .navigation {
+    gap: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .greetings {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .techs-el {
+    width: 80px;
+    height: 80px;
+    margin: 40px 50px;
+  }
+  .header-bars {
+    display: block;
+  }
+  .navigation {
+    display: none;
+  }
+  .info-cont {
+    display: none;
+  }
+  .downFooter-PB {
+    font-size: 14px;
+  }
+}
